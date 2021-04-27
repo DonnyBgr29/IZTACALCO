@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ernesto\\Iztacalco\\iztacalco\\iztacalco.csproj": {}
+    "C:\\Users\\Ernesto\\Documents\\RepoGit\\Iztacalco\\IZTACALCO\\iztacalco.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ernesto\\Iztacalco\\iztacalco\\iztacalco.csproj": {
+    "C:\\Users\\Ernesto\\Documents\\RepoGit\\Iztacalco\\IZTACALCO\\iztacalco.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ernesto\\Iztacalco\\iztacalco\\iztacalco.csproj",
+        "projectUniqueName": "C:\\Users\\Ernesto\\Documents\\RepoGit\\Iztacalco\\IZTACALCO\\iztacalco.csproj",
         "projectName": "iztacalco",
-        "projectPath": "C:\\Users\\Ernesto\\Iztacalco\\iztacalco\\iztacalco.csproj",
+        "projectPath": "C:\\Users\\Ernesto\\Documents\\RepoGit\\Iztacalco\\IZTACALCO\\iztacalco.csproj",
         "packagesPath": "C:\\Users\\Ernesto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ernesto\\Iztacalco\\iztacalco\\obj\\",
+        "outputPath": "C:\\Users\\Ernesto\\Documents\\RepoGit\\Iztacalco\\IZTACALCO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ernesto\\AppData\\Roaming\\NuGet\\NuGet.Config"
