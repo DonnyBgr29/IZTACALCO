@@ -1,0 +1,44 @@
+@model Registro
+
+    @{
+        ViewData["Title"] = "Details";
+    }   
+
+    <div class="card">
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-10">Id</dt>
+                <dd class="col-10">
+                    @Model.Id
+                </dd>
+                <dt class="col-10">N°sector</dt>
+                <dd class="col-10">
+                    @Model.Sector
+                </dd>
+                <dt class="col-10">Jefe de sector</dt>
+                <dd class="col-10">
+                    @Model.JSector
+                </dd>
+                <dt class="col-10">Tramos atendidos</dt>
+                <dd class="col-10">
+                    @Model.TAtendidos
+                </dd>
+                <dt class="col-10">Tramos no atendidos</dt>
+                <dd class="col-10">
+                    @Model.TNAtendidos
+                </dd>
+                <dt class="col-10">Calles</dt>
+                <dd class="col-10">
+                    @Model.Calles
+                </dd>
+                <dt class="col-10">Imagen</dt>@*class="img-thumbnail" width="50px*@
+                <dd class="col-10"><center><img src="\Iztacalco\Views\Imagenes" alt="Imagen" /></center>
+                    @Model.Imagen
+                </dd>
+                <dt class="col-10">Observaciones</dt>
+                <dd class="col-10">
+                    @Model.Observaciones
+                </dd>
+            </dl>
+        </div>
+    </div>

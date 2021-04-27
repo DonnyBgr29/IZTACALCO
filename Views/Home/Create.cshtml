@@ -1,0 +1,41 @@
+@model Registro
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+    <h1 class="display-4">Crear</h1>
+    <button class="btn btn-outline-success">Guardar</button> |
+    <a asp-action="Index" class="btn btn-outline-dark">Cancelar</a>
+    <hr/>
+    <form asp-action="Create">
+        <div class="from-group">
+            <label asp-for="Sector" class="control label"></label>
+            <input asp-for="Sector" class="form-control" />
+        </div>
+        <div class="from-group">
+            <label asp-for="JSector" class="control label"></label>
+            <input asp-for="JSector" class="form-control" />
+        </div>
+        <div class="from-group">
+            <label asp-for="TAtendidos" class="control label"></label>
+            <input asp-for="TAtendidos" class="form-control" />
+        </div>
+        <div class="from-group">
+            <label asp-for="TNAtendidos" class="control label"></label>
+            <input asp-for="TNAtendidos" class="form-control" />
+        </div>
+        <div class="from-group">
+            <label asp-for="Calles" class="control label"></label>
+            <input asp-for="Calles" class="form-control" />
+        </div>
+        <div class="from-group">
+            <label asp-for="Imagen" class="control label"></label>
+            <input asp-for="Imagen" class="form-control" />
+        </div>
+        <div class="from-group">
+            <label asp-for="Observaciones" class="control label"></label>
+            <input asp-for="Observaciones" class="form-control" />
+        </div>
+        
+    </form>

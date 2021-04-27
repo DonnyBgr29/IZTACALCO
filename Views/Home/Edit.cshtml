@@ -1,0 +1,42 @@
+@model Registro
+    @{
+        ViewData ["Title"] = "Edit";
+    }
+
+    <h1 class="display-4">Editar</h1>
+    <hr />
+    <form asp-action="Edit">
+    <button class="btn btn-outline-success">Guardar</button> |
+    <a asp-action="Index" class="btn btn-outline-dark">Cancelar</a>
+        <hr />
+
+        <div class="from-group">
+            <label asp-for="Sector" class="control label"></label>
+            <input asp-for="Sector" class="form-control" />
+        </div>
+        <div class="from-group">
+            <label asp-for="JSector" class="control label"></label>
+            <input asp-for="JSector" class="form-control" />
+        </div>
+        <div class="from-group">
+            <label asp-for="TAtendidos" class="control label"></label>
+            <input asp-for="TAtendidos" class="form-control" />
+        </div>
+        <div class="from-group">
+            <label asp-for="TNAtendidos" class="control label"></label>
+            <input asp-for="TNAtendidos" class="form-control" />
+        </div>
+        <div class="from-group">
+            <label asp-for="Calles" class="control label"></label>
+            <input asp-for="Calles" class="form-control" />
+        </div>
+        <div class="from-group">
+            <label asp-for="Imagen">Imagen:</label><hr>
+            <input type="file" accept="image/jpg" asp-for="Imagen" />
+        </div>
+        <div class="from-group">
+            <label asp-for="Observaciones" class="control label"></label>
+            <input asp-for="Observaciones" class="form-control" />
+        </div>
+    
+    </form>
